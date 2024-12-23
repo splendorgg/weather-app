@@ -2,7 +2,7 @@ import React from 'react'
 
 function CurrentWeather() {
     return (
-        <div className='bg-[#20293a] rounded-xl p-4 flex flex-col gap-2 text-right w-[300px] '>
+        <div className='bg-[#20293a] rounded-xl p-4 flex flex-col gap-2 text-right w-[300px] flex-shrink-0 '>
             <div className='flex justify-between items-center'>
                 <div className='text-4xl'>-1°</div>
                 <div>

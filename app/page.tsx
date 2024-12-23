@@ -6,14 +6,14 @@ import OtherCities from "@/components/OtherCities";
 
 export default function Home() {
   return (
-    <div className="mx-auto w-[95%]">
-      <header>
+    <div className="mx-auto w-[95%] py-6">
+      <header className="">
         <Navbar />
       </header>
-      <main className="flex flex-col gap-4">
-        <div className="flex gap-4">
+      <main className="flex flex-col gap-12 py-6">
+        <div className="flex gap-12">
           <CurrentWeather />
-          <div className="flex gap-4">
+          <div className="flex justify-between flex-1">
             <HourlyForecast />
             <HourlyForecast />
             <HourlyForecast />
@@ -30,7 +30,7 @@ export default function Home() {
             <HourlyForecast />
           </div>
         </div>
-        <div className="flex gap-4 ">
+        <div className="flex gap-12 ">
           <div className="flex flex-col gap-4">
             <OtherCities />
             <OtherCities />

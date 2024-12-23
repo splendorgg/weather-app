@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FiveDay() {
     return (
-        <div className='bg-[#20293a] rounded-xl p-4 flex justify-between gap-8 items-center  '>
+        <div className='bg-[#20293a] rounded-xl p-4 flex justify-evenly gap-8 items-center  '>
             <div>Today</div>
             <div className='flex gap-2'>
                 <div>☁️</div>
